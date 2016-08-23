@@ -7,7 +7,7 @@ import json
 class VARIANT:
 	"""
 	VARIANT class, which is used to parse one variant line in the VCF file
-	A VARIANT instance will be create in ANNOTATE_VCF class for each variant line in the input VCF file
+	A VARIANT instance will be created in ANNOTATE_VCF class for each variant line in the input VCF file
 	"""
 	def __init__(self, variant_line):
 		"""
