@@ -1,5 +1,5 @@
 # annotate_vcf
-A simple VCF annotator
+A simple VCF annotator.
 The program will parse an input vcf as well as fetch annotation information from ExAC server.
 
 To run the program, you need to have the following environment setup:
