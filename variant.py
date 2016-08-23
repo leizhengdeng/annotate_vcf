@@ -99,7 +99,7 @@ class VARIANT:
 		request = urllib2.Request(url)
 		response = None
 		TRY_TIMES = 20
-		for try_count in xrange(1, TRY_TIMES):
+		for try_count in xrange(1, TRY_TIMES+1):
 			try: 
 				#print try_times
 				response = urllib2.urlopen(request, timeout=180)
