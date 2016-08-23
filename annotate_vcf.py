@@ -3,7 +3,7 @@ import sys
 import argparse
 from variant import VARIANT
 # A simple VCF annotator
-# Zhengdeng Lei (zlei2@uic.edu, last update 8/23/2016
+# Author: Zhengdeng Lei (zlei2@uic.edu), last update 8/23/2016
 
 class ANNOTATE_VCF:
 	"""
